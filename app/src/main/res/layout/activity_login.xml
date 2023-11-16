@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_back">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/log_in"
+        android:textColor= "@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="220dp"/>
+
+    <EditText
+        android:id="@+id/LoginEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/black"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/login" />
+
+    <EditText
+        android:id="@+id/PasswordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColorHint="@color/black"
+        android:inputType="textPassword"
+        android:password="true"
+        tools:ignore="Deprecated" />
+
+    <Button
+        android:id="@+id/logButton"
+        android:layout_width="370dp"
+        android:background="@drawable/button"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_height="wrap_content"
+        android:text="@string/log_in" />
+
+    <Button
+        android:id="@+id/BackButton"
+        android:layout_width="370dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Back" />
+</LinearLayout>

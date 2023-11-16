@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Pokemon</string>
+    <string name="register">Регистрация</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="log_in">Вход</string>
+    <string name="Back">Назад</string>
+    <string name="delete_ex">✕</string>
+    <string name="clear_facts">Очистить историю</string>
+    <string name="pokemon_not_found_message">pokemon_not_found_message</string>
+    <string name="last_ten_pokemon">Последние 10 покемонов:</string>
+    <string name="enter_the_num_and_get_pokemon">Введите покемона и узнайте информацию о нём</string>
+    <string name="to_register">Зарегистрироваться</string>
+    <string name="add_pokemon">Добавить покемона</string>
+    <string name="add_my_pok">Добавить своего покемона</string>
+    <string name="history">История</string>
+    <string name="search">Поиск</string>
+    <string name="input_name_pok">Введите имя покемона</string>
+</resources>
